@@ -4,7 +4,7 @@
   <title><![CDATA[Jacent's Blog]]></title>
   <link href="http://jacent13.github.io/atom.xml" rel="self"/>
   <link href="http://jacent13.github.io/"/>
-  <updated>2014-02-13T21:21:49+08:00</updated>
+  <updated>2014-02-13T22:17:55+08:00</updated>
   <id>http://jacent13.github.io/</id>
   <author>
     <name><![CDATA[Jason and Vincent]]></name>
@@ -12,5 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Sorry for late]]></title>
+    <link href="http://jacent13.github.io/blog/2014/02/13/sorry-for-late/"/>
+    <updated>2014-02-13T21:26:30+08:00</updated>
+    <id>http://jacent13.github.io/blog/2014/02/13/sorry-for-late</id>
+    <content type="html"><![CDATA[<p>华弟，对不住这么晚才来写点东西。几次提笔，实感文疏才浅，寥寥几句便无从继续了。这几天工作进展很慢，心烦意乱，其实早日已收到你短信，手机不够钱了，昨天准备来这里，总出些莫名的错误，今天只好从新建站。。。不知道你还会来这里看吗，那天看到你短信，只觉得惭愧，弟弟对我情深意重，叫我如何受得起。</p>
+
+<p>今天建站又折腾了一番，时间不早了，下次教你怎样在这里写blog。早就看到一个系列<a href="http://blog.csdn.net/jackystudio/article/category/1744043">博文</a>, 写Windows下如何用Octopress建站的。你先看看吧，不过我们一起写跟他还有些不同。睡觉了, miss you.</p>
+]]></content>
+  </entry>
   
 </feed>
