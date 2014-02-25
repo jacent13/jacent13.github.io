@@ -4,14 +4,25 @@
   <title><![CDATA[Jacent's Blog]]></title>
   <link href="http://jacent13.github.io/atom.xml" rel="self"/>
   <link href="http://jacent13.github.io/"/>
-  <updated>2014-02-14T19:10:48+08:00</updated>
+  <updated>2014-02-25T22:14:45+08:00</updated>
   <id>http://jacent13.github.io/</id>
   <author>
-    <name><![CDATA[Jason and Vincent]]></name>
+    <name><![CDATA[Jason]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[add comments]]></title>
+    <link href="http://jacent13.github.io/blog/2014/02/25/add-comments/"/>
+    <updated>2014-02-25T22:09:41+08:00</updated>
+    <id>http://jacent13.github.io/blog/2014/02/25/add-comments</id>
+    <content type="html"><![CDATA[<p>终于有空加评论功能了，点标题进入正文就可以看到下面的评论系统，用QQ什么的都可以登录。</p>
+
+<p>弟弟今天太晚了不多说了，晚安好梦(ˇˍˇ)</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Happy Valentine's Day]]></title>
@@ -22,7 +33,7 @@
 
 <p>今天。。今天还是情人节。。去年我还说。。。。对不起啊木有送你礼物 ╮(╯▽╰)╭  送你张情人节壁纸&hellip; Happy Valentine&rsquo;s Day!</p>
 
-<p><img src="./images/Valentine.png" alt="Valentine" /></p>
+<p><img src="http://jacent13.github.io/images/Valentine.png" alt="Valentine" /></p>
 ]]></content>
   </entry>
   
