@@ -9,4 +9,4 @@ categories:
 
 今天。。今天还是情人节。。去年我还说。。。。对不起啊木有送你礼物 ╮(╯▽╰)╭  送你张情人节壁纸... Happy Valentine's Day!
 
-![Valentine](./images/Valentine.png)
+![Valentine](/images/Valentine.png)
