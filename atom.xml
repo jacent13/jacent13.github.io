@@ -4,7 +4,7 @@
   <title><![CDATA[Jacent's Blog]]></title>
   <link href="http://jacent13.github.io/atom.xml" rel="self"/>
   <link href="http://jacent13.github.io/"/>
-  <updated>2014-03-10T12:05:37+08:00</updated>
+  <updated>2014-03-10T12:07:43+08:00</updated>
   <id>http://jacent13.github.io/</id>
   <author>
     <name><![CDATA[Jason]]></name>
@@ -19,6 +19,8 @@
     <updated>2014-03-10T12:01:14+08:00</updated>
     <id>http://jacent13.github.io/blog/2014/03/10/new-theme</id>
     <content type="html"><![CDATA[<p>换主题了嘻嘻，如何？ 卧槽突然发现自己设计 style 还挺来感的。</p>
+
+<p>BTW，你写的 comments 也上首页了。</p>
 ]]></content>
   </entry>
   
