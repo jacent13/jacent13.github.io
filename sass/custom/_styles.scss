@@ -1,135 +1,203 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
-$white: #FFFFFF;
+@font-face {
+	  font-family: "League";
+	    src: url('/font/LeagueGothic.otf');
+    }
 
-html {
-	background: $white;
+    a:visited, #content .blog-index article h1 a:hover { color: #F2583E; }
+
+
+
+
+    /* ----- main layout ----- */
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/font/SueEllenFrancisco.ttf');
 }
 
-body {
-	font-family: $sans !important;
-	font-size: 1em;
+    html {
+      background: #262C33 url("../images/background.png");
+      background-attachment: fixed;
+    }
 
-	> header {
-		background: $white;
-		text-align: center;
+    body { font-size: 1em; }
 
-		h1 {
-			a, a:visited, a:hover {
-			font-family: $heading-font-family;
-			color: $nav-color;
-			}
-		}
-	}
-	> nav {
-		a {
-			font-family: $sans;
-			font-size: 0.9em;
-			padding-top: 0.3em;
-			line-height: 1.5em;
-		}
-		li + li {
-			border-left: 0px;
+    body > div { background-image: none; }
 
-			a {
-				border-left: 0px;
-			}
-		}
+    body > div > div { background-image: none; }
+
+
+
+    /* ----- header ----- */
+
+
+    body > header{
+	      background: none;
+	        /*padding: 1.6em 0 1em 0*/
+	        padding: 0.5em 0 0.5em 0
 	}
 
-	> div {
-		background: $white;
-		border-bottom: 0px;
+	body > header h1{ font-family: OpenSans;
+	  font-size: 2.8em;
+	    padding-left: 20px;
+	      text-shadow: rgba(0, 0, 0, 0.8) 0 0 8px;
+	      }
 
-		> div {
-			background: $white;
-			border-right-width: 0px;
-		}
+	      body > header h2{ font-family: OpenSans;
+	        font-size: 0.5em;
+	  letter-spacing: 1px;
+	    margin-top: -1.4em;
+	      padding-left: 20px;
+	      }
+
+	      body > nav { font-family: OpenSans;
+	        padding-top: .15em;
+	  padding-bottom: .15em;
+	  }
+
+	  body > nav a{  
+	    font-size: 1em;
+	      line-height: 1.4em;
+	      }
+
+	      body > nav form .search{
+	        padding: .2em .3em;
 	}
 
-	> footer {
-		background: $white;
-		text-shadow: none;
-		color: #AAAAAA;
-	  	padding-left: 0;
-	  	padding-right: 0;
-		border-top: 0px;
+
+	/* ----- Content ----- */
+
+
+	#content .blog-index article h1 { font-family: OpenSans;
+	  font-size: 1.8em;
+	    font-weight: normal;
+	    }
+
+	    #content .blog-index article h1, #content .blog-index article h1 a, article header h1, article header h1 a{ 
+	      color: #555555 !important;
+	      }
+
+	      h1 { font-size: 1.8em; font-family: OpenSans;}
+
+	      h1 span{
+	        font-weight: normal; font-family: OpenSans;
+	  color: #E0841B;
+	  }
+
+	  article h2, article h3, article header h1{
+	    font-weight: normal; font-family: OpenSans;
+	    }
+
+	    .blog-index article h1 a:hover{ font-family: OpenSans; text-decoration: none; }
+
+	    article p { font-family: OpenSans;
+	      text-align:justify;
+	        margin-bottom: 1em;
 	}
 
 
+	/* ----- Sidebar ----- */
+
+	aside.sidebar section h1 { font-family: OpenSans; letter-spacing: 0.1em; }
+
+	aside.sidebar a { font-family: OpenSans; line-height: 120%; text-decoration: none; }
+
+	.toggle-sidebar{display: none;}
+
+	ul#gh_repos > li > a{
+	  display: block;
+	    font-weight: bold;
+	      margin-bottom: 0.4em;
+	      }
+
+	      aside.sidebar{
+	        -moz-border-radius-topright: 0.4em;
+	  -webkit-border-radius: 0 0.4em 0 0;
+	    border-radius: 0 0.4em 0 0;
+	    }
+
+
+	    /* ----- Footer ----- */
+
+
+	    body > footer{ font-family: OpenSans;
+	      -moz-border-radius: 0;
+	        -webkit-border-radius: 0;
+	  border-radius:0;
+	    margin-bottom: 0;
+	    }
+
+
+	    /* ----- 404 ----- */
+
+
+	    .notfound404 article{
+	      margin-left: 0 !important;
+	      }
+
+
+	      /* ----- Media queries ----- */
+
+
+	      @media only screen and (min-width: 550px) {
+
+	        body > header h1{
+	      background: url("/favicon.png") no-repeat 0 8px;
+	            padding-left: 60px;
+	      }
+
+	        body > header h2 { padding-left: 60px; }
+
+	  body > footer { margin-bottom: 3em; }
+	  }
+
+	  @media only screen and (min-width: 1040px) {
+
+	    body > nav {
+	        -moz-border-radius: 0.4em;
+	    -webkit-border-radius: 0.4em;
+	        border-radius:0.4em;
+	    margin-bottom: 2em;
+	      }
+
+	        body > footer{
+	      -moz-border-radius-bottomleft: 0.4em;
+	            -moz-border-radius-bottomright: 0.4em;
+	          -webkit-border-radius: 0 0 0.4em 0.4em;
+	        border-radius: 0 0 0.4em 0.4em;
+	  }
+
+	    #main{
+	          -moz-border-radius-topleft: 0.4em;
+	        -moz-border-radius-topright: 0.4em;
+	      -webkit-border-radius: 0.4em 0.4em 0 0;
+	            border-radius: 0.4em 0.4em 0 0;
+	      }
+
+	        #content{
+	      -moz-border-radius-topleft: 0.4em;
+	            -webkit-border-radius: 0.4em 0 0 0;
+	          border-radius: 0.4em 0 0 0;
+	    }
+
+	      #content .blog-index a[rel="full-article"]{
+	            -webkit-border-radius: 6px;
+	          -moz-border-radius: 6px;
+	        border-radius: 6px;
+	  }
+	  }
+
+
+
+#recent-comments ul
+{
+font-size: 8pt;
 }
 
-article {
-	padding-top: 2em;
-
-	.entry-content {
-		h3 {
-			font-style: italic
-		}
-	}
-
-	ul, ol {
-		margin-left: 2em;
-	}
-
-	a, a:visited, a:active, a:hover, {
-		color: #1863A1;
-	}
-
-	header {
-		h1.entry-title {
-			font-family: $heading-font-family;
-			font-weight: 400;
-		}
-	}
-}
-
-#content {
-	div.pagination {
-		background: none repeat scroll 0 0 transparent;
-		margin: 0 10px;  
-		font-size: 0.95em;
-		padding-bottom: 1.5em;
-		margin-top: 4em;
-		position: relative;
-		text-align: center;		
-		border-top: dotted 1px #D1D1D1;
-		border-bottom: dotted 1px #D1D1D1;
-	}
-
-	.blog-index {
-		article {
-			padding-top: 4em;
-
-			header {
-				padding-left: 0;
-  				padding-right: 0;
-			}
-		}
-
-		h1 {
-			a {
-				font-family: $heading-font-family;
-				font-weight: 400;
-			}
-
-			a:hover {
-				text-decoration: none;
-			}
-		}
-	}
-
-	.hentry {
-		h1.entry-title {
-			font-family: $heading-font-family;
-			font-weight: 400;
-			font-size: 2.2em;
-		}
-	}
-	
-}
-
-aside {
-	display: none;
+time
+{
+ font-family: OpenSans;
 }
