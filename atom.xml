@@ -4,7 +4,7 @@
   <title><![CDATA[Jason and Vincent]]></title>
   <link href="http://jacent13.github.io/atom.xml" rel="self"/>
   <link href="http://jacent13.github.io/"/>
-  <updated>2014-03-17T22:55:28+08:00</updated>
+  <updated>2014-03-23T19:10:17+08:00</updated>
   <id>http://jacent13.github.io/</id>
   <author>
     <name><![CDATA[Jason]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[weekend]]></title>
+    <link href="http://jacent13.github.io/blog/2014/03/23/weekend/"/>
+    <updated>2014-03-23T18:42:54+08:00</updated>
+    <id>http://jacent13.github.io/blog/2014/03/23/weekend</id>
+    <content type="html"><![CDATA[<p>又是一个周末，如果不是上山去玩，我日子都要过糊涂了。</p>
+
+<p>回顾一下这周，日子过得太快，唯一的收获是 python，从安装配置到学语法和 C++ 混搭也不过两天多时间，其实脚本语言真的比较容易上手，早知如此就不拖到现在才用上 python 了。虽说用新东西是个折腾时间的事，可好处也不少，自己的程序也可以脚本化了，一些计算也扔给 python，顺便系统管理也用 python 代替了 shell 脚本。</p>
+
+<p>今天去千佛山转了一趟，欲买桂花同载酒，终不似，少年游。天气已经是超级暖和了，一周没见，华弟你又在做什么呢？</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Recent]]></title>
